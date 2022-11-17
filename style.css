@@ -18,6 +18,7 @@ header {
 .inner h1 {
   font-size: 25px;
   font-weight: lighter;
+  letter-spacing: 15px;
   margin-right: 60px;
 }
 .header-list li{
@@ -33,9 +34,96 @@ header {
   width: 200px;
   height: 80px;
   color: #FFF;
+  font-size: 12px;
   text-align: center;
   line-height: 80px;
   text-decoration: none;
   background-color: #000;
   display: inline-block;
+}
+.mainvisual {
+  margin-bottom: 120px;
+}
+.mainvisual img {
+  width: 100%;
+  height: calc(100vh - 80px);
+  object-fit: cover;
+}
+#NEWS {
+  display:flex;
+  flex-flow: column;
+  font-weight: lighter;
+  line-height: 1;
+  margin-bottom: 50px;
+  padding: 50px 120px;
+}
+.news-title .en {
+  font-size: 36px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+.news-title .jp {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.news-title h2::after {
+ content: "";
+ width: 40px;
+ height: 1px;
+ background-color: #000;
+ display: block;
+}
+.news-list {
+  display: flex;
+  padding: 0px 0px 0px 120px;
+}
+.news-list li {
+  list-style: none;
+}
+.news-list span {
+  background-color: #000;
+  color: #FFF;
+  font-size: 12px;
+  padding: 2px 5px 2px 5px;
+}
+.news-list .list1 {
+  padding: 0px 100px 0px 0px;
+}
+.news-list .list2 {
+  border-right: solid 1px;
+  border-left: solid 1px;
+  padding: 0px 100px;
+}
+.news-list .list3 {
+  padding: 0px 0px 0px 100px;
+}
+.about-title {
+  display: flex;
+  margin-top: 150px;
+}
+.about-list {
+  padding-top: 160px;
+  padding-left: 50px;
+}
+#ABOUT {
+  display: flex;
+  flex-flow: column;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.about-list .en {
+  font-size: 36px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+.about-list .jp {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.about-title h2::after {
+ content: "";
+ width: 40px;
+ height: 1px;
+ background-color: #000;
+ display: block;
 }
